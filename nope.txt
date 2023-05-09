@@ -1679,7 +1679,7 @@
 0.0.0.0 bazzibux.com
 0.0.0.0 bb2op.com
 0.0.0.0 bbc-chan.tumblr.com
-0.0.0.0 bbc.com
+
 0.0.0.0 bblt20.com
 0.0.0.0 bblt20live.net
 0.0.0.0 bbolder.com
@@ -3960,7 +3960,7 @@
 0.0.0.0 droidxforums.com
 0.0.0.0 dromadaire.com
 0.0.0.0 droni.al
-0.0.0.0 dropbox.com
+
 0.0.0.0 dropcatch.com
 0.0.0.0 drpepper.com.br
 0.0.0.0 drssm.tmall.com
@@ -29844,7 +29844,7 @@
 0.0.0.0 stat.alibaba.com
 0.0.0.0 stat.swedbank.se #Swedbank
 0.0.0.0 statcounter.com
-0.0.0.0 stats.bbc.co.uk
+
 0.0.0.0 stats.ebay.com #eBay
 0.0.0.0 stats.ft.com #Financial Times
 0.0.0.0 stats.g.doubleclick.net #Google
