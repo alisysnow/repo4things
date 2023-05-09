@@ -1,0 +1,18 @@
+SELINUX
+
+setsebool -P staff_use_svirt on
+setsebool -P virt_use_execmem on
+setsebool -P domain_can_mmap_files on
+
+
+cd /usr/share/selinux/devel/
+cat /var/log/audit/audit.log | audit2allow -m ree > ree.te
+ausearch -i -m AVC -sv no | grep denied | audit2allow -m ree > ree.te
+checkmodule -M -m -o ree.mod ree.te 
+semodule_package -o ree.pp -m ree.mod 
+semodule -i ree.pp
+
+VIRT
+
+virsh net-start --network default 
+virsh net-autostart --network default 
